@@ -1,33 +1,13 @@
-## jshint-visual-studio
+## jshint-visual-studio-2015
 
-JSHint Visual Studio reporter
+JSHint Visual Studio 2015 reporter
 
-### Install
+This is a fork of [jshint-visual-studio](https://github.com/patricklafrance/jshint-visual-studio) which contains a fix for Visual Studio 2015. I do not have an older version of Visual Studio to test if these changes break things on those versions so instead of submitting a pull request for the fix, I'm keeping this as a separate version altogether.
 
-Install with npm: `npm install --save-dev jshint-visual-studio`
-
-### Usage
-
-Use it with:
-
-#### JSHint CLI
-
-```
-jshint --reporter node_modules/jshint-visual-studio/visual-studio.js file.js
-```
-
-#### gulp-jshint
-
-```
-gulp.task('default', function () {
-	gulp.src(["file.js"])
-		.pipe(jshint(".jshintrc"))
-		.pipe(jshint.reporter("jshint-visual-studio"));
-});
-```
+Please refer to [jshint-visual-studio](https://github.com/patricklafrance/jshint-visual-studio) for further documentation.
 
 ### License
 
-Thanks to [jshint-teamcity](https://www.npmjs.com/package/jshint-teamcity).
+Thanks to Patrick Lafrance for [jshint-visual-studio](https://github.com/patricklafrance/jshint-visual-studio).
 
-MIT © Patrick Lafrance
+MIT © Jan Benjamin Engracia
