@@ -10,7 +10,7 @@ module.exports = {
 
             var error = current.error;
             
-            previous[current.file].push(current.file + "(" + error.line + "," + error.character + ")" + ": " + error.reason + "(" + error.code + ")");
+            previous[current.file].push(current.file + "(" + error.line + "," + error.character + ")" + ": Error: " + error.reason + " (" + error.code + ")");
             
 			return previous;
 		}, {});
