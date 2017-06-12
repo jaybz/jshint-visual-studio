@@ -1,11 +1,11 @@
 {
-  "name": "jshint-visual-studio-2015",
+  "name": "jshint-visual-studio-reporter",
   "version": "1.0.0",
   "description": "JSHint Visual Studio 2015 reporter",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jaybz/jshint-visual-studio-2015.git"
+    "url": "https://github.com/cashburn/jshint-visual-studio-reporter.git"
   },
   "keywords": [
     "visual",
@@ -16,14 +16,14 @@
     "gulpplugin"
   ],
   "author": {
-    "name": "JB Engracia",
-    "email": "jaybz.e@gmail.com"
+    "name": "Colin Ashburn",
+    "email": "cashburn26@gmail.com"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jaybz/jshint-visual-studio-2015/issues"
+    "url": "https://github.com/cashburn/jshint-visual-studio-reporter/issues"
   },
-  "homepage": "https://github.com/jaybz/jshint-visual-studio-2015",
+  "homepage": "https://github.com/cashburn/jshint-visual-studio-reporter",
   "devDependencies": {
     "jshint": "~2.4.3"
   }
